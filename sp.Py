@@ -7,13 +7,7 @@ from datetime import datetime
 BASE_URL = "https://www.nea.gov.cn"
 API_URL = "https://www.nea.gov.cn/policy/ds_694d98bc00ff4b8aa78ee2782c27acba.json"
 
-DB_CONFIG = {
-    "host": "10.10.33.214",
-    "database": "test_production",
-    "user": "test_production",
-    "password": "Jxic@1234&",
-    "port": "5866"
-}
+
 
 def fatch_data():
     response = requests.get(API_URL)
